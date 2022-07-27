@@ -29,5 +29,7 @@ main()
     }while( abs(tempx - x2) > 0.001);
 
     cout<<"Root correct to two place of decimal is: "<<x2<<endl;
+    
+    return 0;
 
 }
