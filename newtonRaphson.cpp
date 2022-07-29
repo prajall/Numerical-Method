@@ -18,6 +18,7 @@ main()
 
     float y, yy, x1=5, x2;
     float tempx;
+    int i=1;
 
     y = func(x1);
     yy = func2(x1);
@@ -26,10 +27,13 @@ main()
         x2 = iteration(x1);
         tempx = x1;
         x1 = x2;
+
+        cout<<"x"<<i<<"= "<<x2<<endl;
+        i++;
     }while( abs(tempx - x2) > 0.001);
 
-    cout<<"Root correct to two place of decimal is: "<<x2<<endl;
-    
-    return 0;
+    cout<<endl<<"Hence, Root correct to two place of decimal is: "<<x2<<endl<<endl;
 
+    return 0;
 }
+
