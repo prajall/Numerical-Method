@@ -4,9 +4,11 @@ using namespace std;
 
 float func(float x){
     return ((x * x * x) + (x * x) - (3 * x) - 3);
+    //return(exp(-x) - (3*x) );
 }
 float func2(float x){
     return ( (3*x*x) + (2*x) - 3 );
+    //return(-exp(-x) - 3);
 }
 float iteration(float x){
     return( x - ( func(x)/func2(x) ) );
