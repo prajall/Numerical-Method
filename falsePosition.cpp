@@ -4,7 +4,6 @@ using namespace std;
 
 float func(float x)
 {
-    // return ((x * x * x) - (x * x) - (3 * x) - 3);
     return((x*x*x) - (2*x) - 5);
 }
 
