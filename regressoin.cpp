@@ -29,6 +29,6 @@ int main()
 	cout<<"a = "<<a<<endl<<"b = "<<b<<endl;
 	
 	cout<<"Therefore the required regression equation is y = "<<a<<" + "<<b<<"x"<<endl;
-		//115
+	
 	
 }
