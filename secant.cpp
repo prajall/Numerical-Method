@@ -34,8 +34,8 @@ main()
 
     cout<<"Initial values: "<<"x1 = "<<x1<<", x2 = "<<x2<<endl<<endl;
     cout<<setw(15)<<"Iteration"<<setw(10)<<"x1"<<setw(10)<<"x2"<<setw(15)<<"f(x1)"<<setw(15)<<"f(x2)"
-            <<setw(10)<<"x0"<<setw(15)<<"f(x0)"<<endl
-            <<"------------------------------------------------------------------------------------------"<<endl;
+            <<setw(10)<<"x0"<<setw(15)<<"f(x0)"<<endl;
+           
 
     while (abs(xx0 - x0) > 0.001)
     {
