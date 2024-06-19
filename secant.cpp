@@ -5,7 +5,7 @@ using namespace std;
 float func(float x)
 {
     return ((x * x * x) - (x * x) - (3 * x) - 3);
-    // return((x*x*x) - (2*x) - 5);
+
 }
 
 float formula(float x1, float x2)
