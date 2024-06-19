@@ -50,7 +50,7 @@ main()
 
         x1 = x2;
         x2 = x0;
-
+//ues ues ue sue useuuusdjf hellosldlfs
     }
     cout<<endl<<"Hence, Root correct to two decimal point is "<<x0<<endl<<endl;
     
